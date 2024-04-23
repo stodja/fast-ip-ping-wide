@@ -12,7 +12,8 @@ plugins {
 }
 
 preprocess {
-	def mc114_fabric = createNode('1.14.4-fabric', 1_14_04, 'yarn')
+  def mc112_fabric = createNode('1.12.2-fabric', 1_12_02, 'yarn')
+  def mc114_fabric = createNode('1.14.4-fabric', 1_14_04, 'yarn')
 	def mc115_fabric = createNode('1.15.2-fabric', 1_15_02, 'yarn')
 	def mc116_fabric = createNode('1.16.5-fabric', 1_16_05, 'yarn')
 	def mc117_fabric = createNode('1.17.1-fabric', 1_17_01, 'yarn')
