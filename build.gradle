@@ -20,6 +20,7 @@ preprocess {
 	def mc119_fabric = createNode('1.19.4-fabric', 1_19_04, 'yarn')
 	def mc120_fabric = createNode('1.20.4-fabric', 1_20_04, 'yarn')
 
+  def mc112_forge  = createNode('1.12.2-forge' , 1_12_02, 'yarn')
 	def mc115_forge  = createNode('1.15.2-forge' , 1_15_02, 'yarn')
 	def mc116_forge  = createNode('1.16.5-forge' , 1_16_05, 'yarn')
 	def mc117_forge  = createNode('1.17.1-forge' , 1_17_01, 'yarn')
